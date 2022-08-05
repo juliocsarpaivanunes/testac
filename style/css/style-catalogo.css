@@ -1,0 +1,25 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	outline: none;
+	text-decoration: none;
+}
+
+body {
+	
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+	overflow-x: hidden;
+}
+
+.content {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+
+.box {
+	box-sizing: border-box;
+	padding: 20px;
+}

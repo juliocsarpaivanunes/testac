@@ -1,0 +1,43 @@
+.box-son {
+	flex-wrap: wrap;
+	width: 22vw;
+}
+
+.login {
+	width: 22vw;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 60px;
+}
+
+.login input {
+	width: 22vw;
+	height: 32px;
+	margin-bottom: 10px;
+	text-indent: 10px;
+	border-radius: 3px;
+	border: 1px solid rgba(0,0,0,0.4);
+	font-weight: 500;
+}
+
+.login input[type="submit"]{
+	color: #ffffff;
+	cursor: pointer;
+	background-color: #008f95;
+}
+
+
+@media (max-width: 700px){
+	.box-son {
+		width: 60vw;
+	}
+
+	.login {
+		width: 60vw;
+	}
+
+	.login input {
+		width: 60vw;
+	}
+
+}

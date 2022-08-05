@@ -1,0 +1,101 @@
+.box-fa {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.box-son {
+	width: 80%;
+	display: flex;
+}
+
+.box {
+	width: 100%;
+	border: 1px solid rgba(0,0,0,0.15);
+	padding: 10px;
+	background-color: #fff;
+}
+
+.box .imagem {
+	width: 35%;
+	float: left;
+	display: flex;
+}
+
+.box .imagem img{
+	width: 100%;
+}
+
+.box .infos {
+	box-sizing: border-box;
+	padding-left: 20px;
+	width: 65%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.descricao {
+	margin-bottom: 15px;
+}
+
+.descricao h1 {
+	font-size: 1.2em;
+	font-weight: 500;
+	margin-bottom: 15px;
+    color: rgba(0,0,0,0.853);
+}
+
+.descricao h3 {
+	font-size: 1em;
+	font-weight: 400;
+    color: rgba(0,0,0,0.853);
+}
+
+.info {
+
+}
+
+.info h3 {
+	font-size: 1em;
+	font-weight: 500;
+    color: rgba(0,0,0,0.953);
+    margin-bottom: 10px;
+}
+
+.info ul li{
+	font-size: 0.95em;
+	font-weight: 400;
+	padding: 5px;
+}
+
+.info ul li a {
+    color: rgba(0,0,0,0.853);
+}
+
+.info ul li a:hover {
+	text-decoration: underline;
+}
+
+.chamadas {
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+.exemplos {
+	width: 100%;
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.exemplos .foto {
+	width: 25%;
+	flex-wrap: wrap;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.exemplos .foto img {
+	width: 100%;
+}
